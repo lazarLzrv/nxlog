@@ -1,0 +1,25 @@
+.table {
+    max-width: 800px;
+    width: 100%;
+    margin: 60px auto;
+    border: 1px solid var(--drey);
+    border-collapse: collapse;
+
+    th,
+    td {
+        padding: 5px 10px;
+        border: 1px solid var(--drey);
+        width: 40%;
+    }
+
+    th {
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    td:nth-of-type(2),
+    th:nth-of-type(2) {
+        width: 20%;
+        text-align: center;
+    }
+}
