@@ -1,0 +1,22 @@
+@use "./reset.scss";
+@use "./themes.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: Gilroy;
+    color: var(--black);
+    background: var(--white);
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+button {
+    transition: 0.5s;
+}
